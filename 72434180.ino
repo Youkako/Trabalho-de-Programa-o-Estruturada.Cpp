@@ -27,7 +27,7 @@ MD_MAX72XX mx = MD_MAX72XX(HARDWARE_TYPE, CS_PIN, MAX_DEVICES);
 #define BUF_SIZE  75
 
 //curMessage contém a mensagem atual a ser rolada.
-uint8_t curMessage[BUF_SIZE] = { "     CAINA E UM BUNDA MOLE!      "};
+uint8_t curMessage[BUF_SIZE] = { "     coloque a mensagem que ira rolar na matriz de led!      "};
 //newMessage é um buffer para uma nova mensagem recebida.
 uint8_t newMessage[BUF_SIZE];
 //newMessageAvailable é uma flag para indicar a disponibilidade de uma nova mensagem.
